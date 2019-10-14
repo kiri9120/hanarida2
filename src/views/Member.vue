@@ -1,5 +1,7 @@
 <template>
   <div class="member">
-    <h1>これはメンバーページです</h1>
+    <v-container>
+      <h1>これはメンバーページです</h1>
+    </v-container>
   </div>
 </template>
