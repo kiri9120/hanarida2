@@ -4,11 +4,11 @@
         <v-hover v-slot:default="{ hover }">
           <v-card outlined tile :style='{ backgroundImage: `url(${item.image})` }' :to="item.link">
             <v-responsive :aspect-ratio="16/9">
-            <v-expand-transition>
-              <div v-if="hover" class="d-flex transition-fast-in-fast-out brown darken-2 v-card--reveal display-2 white--text" style="height: 100%;">
-              {{item.name}}
-              </div>
-            </v-expand-transition>
+              <v-expand-transition>
+                <div v-if="hover" class="d-flex transition-fast-in-fast-out brown darken-2 v-card--reveal display-2 white--text" style="height: 100%;">
+                {{item.name}}
+                </div>
+              </v-expand-transition>
             </v-responsive>
           </v-card>
         </v-hover>
@@ -58,17 +58,17 @@ export default {
             link: '/gallery'
           },
           {
-            name: 'タイトル7',
+            name: 'ページ7',
             image: require('../assets/flower07.jpg'),
             link: '/'
           },
           {
-            name: 'タイトル8',
+            name: 'ページ8',
             image: require('../assets/flower08.jpg'),
             link: '/'
           },
           {
-            name: 'タイトル9',
+            name: 'ページ9',
             image: require('../assets/flower09.jpg'),
             link: '/'
           },
@@ -83,7 +83,7 @@ export default {
     align-items: center;
     bottom: 0;
     justify-content: center;
-    opacity: .5;
+    opacity: .6;
     position: absolute;
     width: 100%;
   }
