@@ -1,7 +1,7 @@
 <template>
   <div class="member">
     <v-container>
-      <h1 class="display-4 my-12">Member</h1>
+      <h1 class="display-4 my-12 font-italic font-weight-medium">Member</h1>
       <v-row no-gutters>
         <v-col v-for="(member, index) in members" :key="index" cols="6" sm="4" lg="3" class="pa-2">
           <v-card shaped tile raised>

@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <v-container>
-      <h1 class="display-4 my-12">About</h1>
+      <h1 class="display-4 my-12 font-italic font-weight-medium">About</h1>
       <div class="slash-wrapper my-12">
         <div class="slash-text">
           <div title="Vision" class="top"></div>
