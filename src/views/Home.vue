@@ -26,56 +26,55 @@ export default {
   name: 'App',
   data () {
     return {
-        topItems: [
-          {
-            name: 'TOP',
-            image: require('../assets/flower01.jpg'),
-            link: '/'
-          },
-          {
-            name: 'ABOUT',
-            image: require('../assets/flower02.jpg'),
-            link: '/about'
-          },
-          {
-            name: 'MEMBER',
-            image: require('../assets/flower03.jpg'),
-            link: '/member'
-          },
-          {
-            name: 'CONTACT',
-            image: require('../assets/flower04.jpg'),
-            link: '/contact'
-          },
-          {
-            name: 'NEWS',
-            image: require('../assets/flower05.jpg'),
-            link: '/news'
-          },
-          {
-            name: 'GALLERY',
-            image: require('../assets/flower06.jpg'),
-            link: '/gallery'
-          },
-          {
-            name: 'ページ7',
-            image: require('../assets/flower07.jpg'),
-            link: '/'
-          },
-          {
-            name: 'ページ8',
-            image: require('../assets/flower08.jpg'),
-            link: '/'
-          },
-          {
-            name: 'ページ9',
-            image: require('../assets/flower09.jpg'),
-            link: '/'
-          },
-        ]
+      topItems: [
+        {
+          name: 'TOP',
+          image: require('../assets/flower01.jpg'),
+          link: '/'
+        },
+        {
+          name: 'ABOUT',
+          image: require('../assets/flower02.jpg'),
+          link: '/about'
+        },
+        {
+          name: 'MEMBER',
+          image: require('../assets/flower03.jpg'),
+          link: '/member'
+        },
+        {
+          name: 'CONTACT',
+          image: require('../assets/flower04.jpg'),
+          link: '/contact'
+        },
+        {
+          name: 'NEWS',
+          image: require('../assets/flower05.jpg'),
+          link: '/news'
+        },
+        {
+          name: 'GALLERY',
+          image: require('../assets/flower06.jpg'),
+          link: '/gallery'
+        },
+        {
+          name: 'ページ7',
+          image: require('../assets/flower07.jpg'),
+          link: '/'
+        },
+        {
+          name: 'ページ8',
+          image: require('../assets/flower08.jpg'),
+          link: '/'
+        },
+        {
+          name: 'ページ9',
+          image: require('../assets/flower09.jpg'),
+          link: '/'
+        }
+      ]
     }
   }
-
 };
 </script>
 <style scoped lang="scss">

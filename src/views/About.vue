@@ -2,7 +2,6 @@
   <div class="about">
     <v-container>
       <h1 class="display-4 my-12">About</h1>
-      <!-- <h2 class="headline-type1 display-2 mb-8"><span> Vision </span></h2> -->
       <div class="slash-wrapper my-12">
         <div class="slash-text">
           <div title="Vision" class="top"></div>
@@ -33,16 +32,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-// .headline-type1 {
-
-//   span {
-//     background: linear-gradient(transparent 70%, #a7d6ff 70%);
-//   }
-//   &:first-letter {
-//     font-size: 80px;
-//   }
-// }
-
 .slash-wrapper {
   height: 100px;
   position: relative;
