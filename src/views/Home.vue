@@ -1,15 +1,13 @@
 <template>
     <v-row no-gutters>
-      <v-col v-for="(item, index) in topItems" :key="index" cols="12" sm="4">
+      <v-col v-for="(item, index) in topItems" :key="index" cols="4" style="height: calc(calc(100vh - 56px) / 3)">
         <v-hover v-slot:default="{ hover }">
-          <v-card outlined tile :style='{ backgroundImage: `url(${item.image})` }' :to="item.link">
-            <v-responsive :aspect-ratio="16/9">
-              <v-expand-transition>
-                <div v-if="hover" class="d-flex transition-fast-in-fast-out brown darken-2 v-card--reveal display-2 white--text" style="height: 100%;">
-                {{item.name}}
-                </div>
-              </v-expand-transition>
-            </v-responsive>
+          <v-card outlined tile :style='{ backgroundImage: `url(${item.image})` }' :to="item.link" style="height: 100%;">
+            <v-expand-transition>
+              <div v-if="hover" class="d-flex transition-fast-in-fast-out brown darken-2 v-card--reveal display-2 white--text">
+              {{item.name}}
+              </div>
+            </v-expand-transition>
           </v-card>
         </v-hover>
       </v-col>
@@ -85,5 +83,6 @@ export default {
     opacity: .6;
     position: absolute;
     width: 100%;
+    height: 100%;
   }
 </style>
