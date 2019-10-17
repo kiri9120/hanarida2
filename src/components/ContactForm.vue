@@ -1,6 +1,6 @@
 <template>
 <div>
-   <v-form ref="form" v-model="valid" lazy-validation class="formrun">
+   <v-form ref="form" v-model="valid" lazy-validation>
       <v-text-field v-model="name" :rules="nameRules" :counter="10" label="Name" required  name="お名前" type="text"></v-text-field>
       <v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
       <v-select v-model="select" :items="items" :rules="[v => !!v || 'Item is required']" label="Item" required></v-select>
