@@ -5,7 +5,7 @@
       <v-row no-gutters>
         <v-col v-for="(member, index) in members" :key="index" cols="6" sm="4" lg="3" class="pa-2">
           <v-card shaped tile raised>
-            <v-img :src="member.image" aspect-ratio="1.2"></v-img>
+            <v-img :src="member.image" aspect-ratio="1"></v-img>
             <v-card-title class="pb-0">{{ member.name }}</v-card-title>
             <v-card-text class="pb-0">{{ member.job }}</v-card-text>
             <v-card-actions>
@@ -33,7 +33,7 @@ export default {
         {
           name: '山田 太郎',
           job: 'モデル',
-          image: require('../assets/member01.jpg'),
+          image: require('../assets/member02.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
           facebook: 'https://www.facebook.com/sourikantei'
         },
