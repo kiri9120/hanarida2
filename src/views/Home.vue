@@ -2,7 +2,7 @@
     <v-row no-gutters v-if="$vuetify.breakpoint.xsOnly">
       <v-col v-for="(item, index) in topItems" :key="`first-${index}`" cols="6" style="height: calc(calc(100vh - 56px) / 3)">
         <v-hover v-slot:default="{ hover }">
-          <v-card outlined tile :style='{ backgroundImage: `url(${item.image})` }' :to="item.link" style="height: 100%; position: relative">
+          <v-card outlined tile :style='{ backgroundImage: `url(${item.image})` }' :to="item.link" style="height: 100%; position: relative; border: none;">
             <p class="top-text">
               {{item.name}}
             </p>
@@ -13,7 +13,7 @@
     <v-row no-gutters v-else>
       <v-col v-for="(item, index) in topItems" :key="`second-${index}`" cols="4" style="height: calc(calc(100vh - 56px) / 2)">
         <v-hover v-slot:default="{ hover }">
-          <v-card outlined tile :style='{ backgroundImage: `url(${item.image})` }' :to="item.link" style="height: 100%;">
+          <v-card outlined tile :style='{ backgroundImage: `url(${item.image})` }' :to="item.link" style="height: 100%; border: none;">
             <v-expand-transition>
               <div v-if="hover" class="d-flex transition-fast-in-fast-out brown darken-2 v-card--reveal display-2 white--text">
                 {{item.name}}
