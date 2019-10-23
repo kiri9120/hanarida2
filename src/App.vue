@@ -27,11 +27,15 @@ export default {
   }),
 };
 </script>
-<style scoped>
+<style lang="scss">
   .v-enter-active, .v-leave-active {
     transition: opacity .3s;
   }
   .v-enter, .v-leave-to {
     opacity: 0;
+  }
+  .headline-type1 {
+    font-size: 6rem;
+    font-family: 'Shadows Into Light', cursive;
   }
 </style>
