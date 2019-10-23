@@ -1,7 +1,7 @@
 <template>
   <div class="member">
     <v-container>
-      <h1 class="display-4 my-12 font-italic font-weight-medium">Member</h1>
+      <h1 class="headline-type1 my-12">Member</h1>
       <v-row no-gutters>
         <v-col v-for="(member, index) in members" :key="index" cols="6" sm="4" lg="3" class="pa-2">
           <v-card shaped tile raised>
@@ -13,8 +13,8 @@
               <v-btn icon :href="member.instagram" target="_blank">
                 <v-icon>mdi-instagram</v-icon>
               </v-btn>
-              <v-btn icon :href="member.facebook" target="_blank">
-                <v-icon>mdi-facebook</v-icon>
+              <v-btn icon :href="member.twitter" target="_blank">
+                <v-icon>mdi-twitter</v-icon>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -31,137 +31,137 @@ export default {
     return {
       members: [
         {
-          name: '山田 太郎',
+          name: '今瀧 健登',
           job: 'モデル',
           image: require('../assets/member02.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         },
         {
           name: '山田 太郎',
           job: 'モデル',
           image: require('../assets/member01.jpg'),
           instagram: 'https://www.instagram.com/watanabenaomi703',
-          facebook: 'https://www.facebook.com/sourikantei'
+          twitter: 'https://www.twitter.com/watanabe_naomi'
         }
       ]
     }
